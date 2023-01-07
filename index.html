@@ -132,11 +132,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
-    <!-- <embed name="Backsong" src="img/Beautiful_In_White.mp3" loop="false" hidden="true" autostart="true">
-    <audio controls autoplay>
-      <source src="img/Beautiful_In_White.mp3" type="audio/mpeg">
-    </audio> -->
-    <audio src="img/Beautiful_In_White.mp3" style="display:none;" autoplay></audio>
+    <audio src="img/Beautiful_In_White.mp3" id="myAudio"></audio>
 
     <div class='popup'>
       <div class='cnt223'>
@@ -148,7 +144,12 @@
             You've been invited to attend our wedding ceremony.
             <br />
             <br />
-            <a href='' class='close'>Buka Undangan</a>
+            <button onclick="playmyAudio()" class='close'>Buka Undangan</button>
+            <script>
+              function playmyAudio(){
+                document.getElementById("myAudio").play();
+              }
+            </script>
           </p>
       </center>
       </div>
