@@ -12,7 +12,9 @@
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Bentham&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
@@ -28,6 +30,13 @@
     <!-- Script Popup -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
     <style type="text/css">
+    .lvhead {
+      font-family: 'Allura', cursive;
+      letter-spacing: 2px;
+    }
+    .lvbody {
+      font-family: 'Bentham', serif;
+    }
     #overlay {
     position: fixed;
     top: 0;
@@ -85,6 +94,16 @@
     .cnt223 .x:hover{
     cursor: pointer;
     }
+    .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
     </style>
     <script type='text/javascript'>
     $(function(){
@@ -122,8 +141,8 @@
       <div class='cnt223'>
         <center>
           <img class="img-fluid mb-4" src="img/heart.png" alt="">
-          <h1>Wedding Invitation</h1>
-          <h2>Nani & Dody</h2>
+          <h1 class="text-uppercase font-weight-normal">Wedding Invitation</h1>
+          <h2 class="font-secondary">Nani & Dody</h2>
           <p>
             You've been invited to attend our wedding ceremony.
             <br />
@@ -301,18 +320,18 @@
                     </div>
                     <div class="col-md-6 text-center text-md-left">
                         <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
-                            <h4 class="mb-2">First Meet</h4>
+                            <h4 class="mb-2 lvhead">First Meet</h4>
                             <!-- <p class="text-uppercase mb-2">Date of Meet</p> -->
-                            <p class="m-0">Kisah ini berawal dari pertemuan kita yang penuh kehangatan dan keceriaan di tahun 2021</p>
+                            <p class="m-0 lvbody">Kisah ini berawal dari pertemuan kita yang penuh kehangatan dan keceriaan di tahun 2022</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 text-center text-md-right">
                         <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
-                            <h4 class="mb-2">Relationship</h4>
+                            <h4 class="mb-2 lvhead">Relationship</h4>
                             <!-- <p class="text-uppercase mb-2">01 Jan 2050</p> -->
-                            <p class="m-0">Setelah menjalani hubungan kisah cinta yang penuh keharmonisan dan kebahagiaan kami berkomitmen untuk melanjutkan hubungan ini ke jenjang yang lebih serius demi masa depan bersama</p>
+                            <p class="m-0 lvbody">Setelah menjalani hubungan kisah cinta yang penuh keharmonisan dan kebahagiaan kami berkomitmen untuk melanjutkan hubungan ini ke jenjang yang lebih serius demi masa depan bersama</p>
                         </div>
                     </div>
                     <div class="col-md-6 text-center text-md-left">
@@ -325,9 +344,9 @@
                     </div>
                     <div class="col-md-6 text-center text-md-left">
                         <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
-                            <h4 class="mb-2">Engagement</h4>
+                            <h4 class="mb-2 lvhead">Engagement</h4>
                             <!-- <p class="text-uppercase mb-2">01 Jan 2050</p> -->
-                            <p class="m-0">Setelah memutuskan untuk melanjutkan ke jenjang berikutnya, Dody memberanikan diri membawa keluarga besar bersilahturahmi menyampaikan niat baiknya untuk melamar Nani dan meminta untuk menikah denganya</p>
+                            <p class="m-0 lvbody">Setelah memutuskan untuk melanjutkan ke jenjang berikutnya, Dody memberanikan diri membawa keluarga besar bersilahturahmi menyampaikan niat baiknya untuk melamar Nani dan meminta untuk menikah denganya</p>
                         </div>
                     </div>
                 </div>
@@ -386,6 +405,7 @@
                     </div>
                 </div>
             </div><br />
+            <!-- <center><a href="" class="button">Wedding Gift</a></center><br /> -->
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center">
                   <div class="mapouter">
@@ -402,15 +422,27 @@
                     </div>
                   </div>
                 </div>
+
+            </div><br />
+
+            <div class="section-title position-relative text-center">
+                <!-- <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Event</h6> -->
+                <h1 class="font-secondary display-4">Wedding Gift</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <p>Silahkan transfer hadiah melalui nomor rekening maupun dompet digital berikut:</p>
+                    <img class="img-fluid mb-4" src="img/gift-bca.jpg" alt="">
+                    <img class="img-fluid mb-4" src="img/gift-mandiri.jpg" alt="">
+
+                    <b><u>Kirim Hadiah Fisik</u></b>
+                    <p>Jl. Medaeng Raya No.30, RT.001/022, Perum III Karawaci, Kel. Bencongan Indah, Kec. Kelapa Dua, Tangerang 15831</p>
+                </div>
             </div>
         </div>
     </div>
     <!-- Event End -->
-
-
-    <!-- Friends & Family Start -->
-
-    <!-- Friends & Family End -->
 
     <!-- Gallery Start -->
     <div class="container-fluid bg-gallery" id="gallery" style="padding: 120px 0; margin: 90px 0;">
@@ -453,6 +485,18 @@
             <div class="gallery-item">
                 <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
                 <a href="img/gallery-6.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-7.jpg" alt="">
+                <a href="img/gallery-7.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-8.jpg" alt="">
+                <a href="img/gallery-8.jpg" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
