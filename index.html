@@ -38,7 +38,7 @@
       font-family: 'Bentham', serif;
     }
     #overlay {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -50,23 +50,26 @@
     opacity: 0.7;
     z-index: 100;
     display: none;
+    position: fixed;
+    margin: 10%;
     }
     .cnt223 a{
     text-decoration: none;
     }
     .popup{
     width: 100%;
-    margin: 0 auto;
+    max-height: 100%;
+    margin: 0;
     display: none;
     position: fixed;
     z-index: 101;
     }
     .cnt223{
-    width: 100%;
-    min-height: 150px;
-    margin: 100px auto;
+    width: 75%;
+    max-height: 75%%;
+    margin: 10%;
     background: #f3f3f3;
-    position: relative;
+    position: fixed;
     z-index: 103;
     padding: 15px 35px;
     border-radius: 5px;
@@ -137,7 +140,7 @@
     <div class='popup'>
       <div class='cnt223'>
         <center>
-          <img class="img-fluid mb-4" src="img/heart.png" alt="">
+          <img class="img-fluid mb-4" src="img/heart.png" alt="" width="150px" height="150px">
           <h1 class="text-uppercase font-weight-normal">Wedding Invitation</h1>
           <h2 class="font-secondary">Nani & Dody</h2>
           <p>
